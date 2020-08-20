@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background: #000;
+	color: #37523d;
+	font-size: 13px;
+	line-height: 1.5;
+	/* 微軟黑體 */
+	font-family: Microsoft JhengHei;
+}
+
+.wrap {
+	background: #fff;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.layout1 {
+	background: #e7eeea;
+	display: flex;
+	margin-bottom: 45px;
+}
+.layout1 .item{
+	display: flex;
+	padding: 10px 30px 30px 20px;
+}
+.layout1 .item img{
+	width: 60px;
+}
+.layout1 .item .content{
+	margin-left: 10px;
+	padding-top: 10px;
+}
+.layout1 .item h2{
+	margin-bottom: 20px;
+}
+
+.layout2 {
+	background: #e7eeea;
+	display: flex;
+	padding: 20px 10px;
+	margin-bottom: 45px;
+}
+.layout2 .item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.layout2 h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.layout2 p{
+	text-align: center;
+}
+
+.layout3 {
+	background: #e7eeea;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 30px;
+}
+.layout3 .item{
+	display: flex;
+	align-items: center;
+}
+.layout3 .item .content{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.layout3 .item-last{
+	justify-content: flex-end;
+}
+.layout3 .item-last .logo{
+	order: 100;
+}
+.layout3 h2{
+	margin-bottom: 20px;
+}

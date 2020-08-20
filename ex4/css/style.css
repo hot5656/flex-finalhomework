@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background: #000;
+	color: #37523d;
+	font-size: 16px;
+	line-height: 1.5;
+	/* 微軟黑體 */
+	font-family: Microsoft JhengHei;
+	font-weight: bold;
+}
+
+.wrap {
+	width: 1200px;
+	display: flex;
+	flex-direction: column;
+	margin:0 auto;
+	background: #fff;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #e7eeea;
+	padding: 5px 50px 0px 50px;
+}
+header .menu {
+	display: flex;
+}
+header a{
+	text-decoration: none;
+	padding: 10px;
+}
+header li a:hover{
+	background: gray;
+}
+
+footer {
+	background: #37523d;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+footer a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+footer a:hover{
+	background: gray;
+}
+footer .menu{
+	display: flex;
+	justify-content: center;
+}
+
+.content {
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+
+.wrap h2 {
+	font-size: 20px;
+}
+
+.wrap p {
+	margin-top: 25px;
+}
+
+.product {
+	width: 600px;
+	margin-top: 20px;
+}
+
+.product img{
+	display: block;
+	width: 100%;
+}
